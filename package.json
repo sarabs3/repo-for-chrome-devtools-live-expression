@@ -1,0 +1,17 @@
+{
+  "name": "repo-for-chrome-devtools-live-expressions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "beforestart":"npm i",
+    "start": "./node_modules/.bin/http-server -p 3000"
+  },
+  "keywords": [],
+  "author": "Sarabjeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
